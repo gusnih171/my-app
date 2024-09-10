@@ -1,0 +1,12 @@
+#bottom-signature {
+    position: fixed;     
+       padding-left: 13%;  
+       bottom: 0px; 
+       width: 100%;
+}
+#bottom-signature p {
+    color: orange;
+    text-decoration: solid;
+    font-size: large;
+    
+}

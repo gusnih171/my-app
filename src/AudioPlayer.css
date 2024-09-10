@@ -1,0 +1,64 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#video {
+    z-index: 0;
+    width: 30%;
+    height: 25%;
+    top: 17%;
+    border-radius: 25px;
+
+}
+
+audio::-webkit-media-controls-panel{
+    background-color: orange;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    box-shadow: 0 2px 8px 1px #454545;
+    cursor: pointer; 
+}
+audio::-webkit-media-controls-current-time-display{
+    color: black;
+}
+audio::-webkit-media-controls-time-remaining-display{
+    color: black;
+}
+
+ body {
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+} 
+
+
+input::-webkit-file-upload-button {
+    background-color: orange;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    box-shadow: 0 2px 8px 1px #454545;
+    cursor: pointer; 
+    
+    
+  }
+  input[type=file] {
+    color: orange;
+    font-style: oblique;
+    font-size: 16px;
+    width: 100%;
+    
+  }
+
+  #chooseFile {
+    padding-bottom: 5%;
+    padding-left:1%;
+  }
+
+  audio {
+    width: 760px;
+  }
+
+
