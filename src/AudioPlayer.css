@@ -4,10 +4,10 @@
 }
 
 #video {
-    z-index: 0;
-    width: 30%;
-    height: 25%;
-    top: 17%;
+    z-index: -1;
+    width: 760px;
+    height: 350px;
+    top: 100px;
     border-radius: 25px;
 
 }
@@ -28,7 +28,7 @@ audio::-webkit-media-controls-time-remaining-display{
 }
 
  body {
-    min-height: 100vh;
+    padding-top: 470px;
     display: grid;
     place-items: center;
 } 
@@ -59,6 +59,7 @@ input::-webkit-file-upload-button {
 
   audio {
     width: 760px;
+    
   }
 
 

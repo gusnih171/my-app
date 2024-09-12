@@ -147,6 +147,7 @@ const Player = () => {
       <video src={recordingVideo} type="video/mp4" id="video" muted loop ref={videoElmRef} />
       {analyzerData && <WaveForm analyzerData={analyzerData} />}
       <div id="chooseFile">
+      
       <input type="file" accept="audio/*" onChange={onFileChange}/>
       </div>
       <div>

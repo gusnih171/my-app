@@ -9,6 +9,8 @@ const App = () => {
   // Return
   return (
     <div className="App"> 
+    <meta charset="utf-8"></meta>
+    <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
      <Player /> 
      <Background />
      <Trademark />
